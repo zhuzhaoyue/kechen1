@@ -1,0 +1,23 @@
+
+.button {
+    -fx-background-color: #D2B48C;
+    -fx-border-radius: 50px;
+    -fx-font-size: 15px;
+    -fx-font-family: "Algerian";
+}
+
+/* 鼠标悬停时的背景颜色 */
+.button:hover {
+    -fx-background-color: #8B4513
+}
+
+/* 鼠标按下时的背景颜色 */
+.button:pressed {
+    -fx-background-color: #FFFFE0;
+}
+
+.root {
+    -fx-background-image: url('IMG.png');
+    -fx-background-size: cover;
+}
+

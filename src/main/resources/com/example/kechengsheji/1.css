@@ -1,0 +1,7 @@
+.button:hover {
+    -fx-background-color: lightblue;
+}
+.root {
+    -fx-background-image: url('GDYG.png');
+    -fx-background-size: cover;
+}

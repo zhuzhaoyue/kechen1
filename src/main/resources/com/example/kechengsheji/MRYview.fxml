@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0" prefWidth="1038.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kechengsheji.controler1">
+   <children>
+      <Button layoutX="113.0" layoutY="415.0" mnemonicParsing="false" onAction="#vip" prefHeight="151.0" prefWidth="227.0" text="会员管理" />
+      <Button layoutX="398.0" layoutY="415.0" mnemonicParsing="false" onAction="#pro" prefHeight="151.0" prefWidth="227.0" text="美容品管理" />
+      <Button layoutX="695.0" layoutY="415.0" mnemonicParsing="false" onAction="#sal" prefHeight="151.0" prefWidth="227.0" text="销售记录" />
+   </children>
+   <stylesheets>
+      <URL value="@styles.css" />
+   </stylesheets>
+</AnchorPane>

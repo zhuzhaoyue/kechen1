@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="269.0" prefWidth="506.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kechengsheji.controler0">
+   <children>
+      <Label layoutX="109.0" layoutY="61.0" prefHeight="125.0" prefWidth="325.0" text="密码错误，已退出！" textFill="RED">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+   </children>
+   <stylesheets>
+      <URL value="@2.css" />
+   </stylesheets>
+</AnchorPane>

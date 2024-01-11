@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kechengsheji.controler0">
+   <children>
+      <TextField fx:id="AssID" layoutX="178.0" layoutY="51.0" prefHeight="53.0" prefWidth="277.0" promptText="请输入账号" />
+      <TextField fx:id="AssWord" layoutX="178.0" layoutY="123.0" prefHeight="53.0" prefWidth="277.0" promptText="请输入密码" />
+      <Button layoutX="218.0" layoutY="212.0" mnemonicParsing="false" onAction="#log" prefHeight="76.0" prefWidth="129.0" text="登录" />
+      <Label layoutX="69.0" layoutY="60.0" text="账户：" textFill="#ffcccc">
+         <font>
+            <Font size="27.0" />
+         </font></Label>
+      <Label layoutX="69.0" layoutY="132.0" text="密码：" textFill="#ffcccc">
+         <font>
+            <Font size="27.0" />
+         </font></Label>
+   </children>
+   <stylesheets>
+      <URL value="@styles.css" />
+   </stylesheets>
+</AnchorPane>

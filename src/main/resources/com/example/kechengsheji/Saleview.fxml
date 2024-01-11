@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="837.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kechengsheji.controler4">
+   <children>
+      <TableView fx:id="tableview" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="SaleID" prefWidth="75.0" text="单号" />
+          <TableColumn fx:id="ProductID" prefWidth="75.0" text="产品号" />
+            <TableColumn fx:id="MemberID" prefWidth="75.0" text="会员号" />
+            <TableColumn fx:id="SaleDate" prefWidth="173.0" text="销售日期" />
+            <TableColumn fx:id="QuantitySold" minWidth="0.0" prefWidth="98.0" text="销售数量" />
+            <TableColumn fx:id="TotalAmount" minWidth="0.0" prefWidth="103.0" text="销售总额" />
+        </columns>
+      </TableView>
+      <Pagination fx:id="pagetable" layoutX="31.0" layoutY="271.0" prefHeight="201.0" prefWidth="538.0" />
+      <DatePicker fx:id="AddSaleDate" layoutX="603.0" layoutY="196.0" prefHeight="36.0" prefWidth="209.0" promptText="交易日" />
+      <TextField fx:id="AddSaleID" layoutX="603.0" layoutY="38.0" prefHeight="0.0" prefWidth="209.0" promptText="单号" />
+      <TextField fx:id="AddProductID" layoutX="603.0" layoutY="93.0" prefHeight="28.0" prefWidth="209.0" promptText="产品号" />
+      <TextField fx:id="AddMemberID" layoutX="603.0" layoutY="146.0" prefHeight="17.0" prefWidth="209.0" promptText="会员号" />
+      <TextField fx:id="AddQuantitySold" layoutX="603.0" layoutY="242.0" prefHeight="36.0" prefWidth="209.0" promptText="订单数" />
+      <Button fx:id="addbutton" layoutX="651.0" layoutY="289.0" mnemonicParsing="false" onAction="#Add" prefHeight="87.0" prefWidth="114.0" text="添加" />
+      <Button fx:id="NULL" layoutX="651.0" layoutY="376.0" mnemonicParsing="false" onAction="#Null" prefHeight="36.0" prefWidth="114.0" text="清空" />
+      <Button layoutX="651.0" layoutY="412.0" mnemonicParsing="false" onAction="#Importing" prefHeight="36.0" prefWidth="114.0" text="导出excel" />
+   </children>
+    <stylesheets>
+        <URL value="@1.css" />
+    </stylesheets>
+</AnchorPane>
